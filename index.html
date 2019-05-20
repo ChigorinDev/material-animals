@@ -88,8 +88,109 @@
   </div>
 
   <!-- tabs -->
+  <section class="container section" id="facts">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="text-lighten-4">Amazing facts</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo laboriosam placeat ipsa id dolorem
+          obcaecati quam modi officia deleniti sunt ad aliquam, eaque, expedita praesentium et iste corporis soluta.
+        </p>
+      </div>
+      <div class="col s12 l6 offset-12">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#lama">Amazing fact #1</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#dino">Amazing fact #3</a>
+          </li>
+        </ul>
+        <div class="col s12" id="lama">
+          <p class="flow-text">LAMA</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo laboriosam placeat ipsa id dolorem
+            obcaecati quam modi officia deleniti sunt ad aliquam, eaque, expedita praesentium et iste corporis soluta.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo laboriosam placeat ipsa id dolorem
+            obcaecati quam modi officia deleniti sunt ad aliquam, eaque, expedita praesentium et iste corporis soluta.
+          </p>
+        </div>
+        <div class="col s12" id="dino">
+          <p class="flow-text">DINO</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo laboriosam placeat ipsa id dolorem
+            obcaecati quam modi officia deleniti sunt ad aliquam, eaque, expedita praesentium et iste corporis soluta.
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo laboriosam placeat ipsa id dolorem
+            obcaecati quam modi officia deleniti sunt ad aliquam, eaque, expedita praesentium et iste corporis soluta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="./imgs/forest.jpeg" class="responsive-img" alt="nature">
+    </div>
+  </div>
 
   <!-- form -->
+
+  <section class="section container" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="text-lighten-4">
+          Get in touch
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam cupiditate cum quos, cumque et ratione?
+          Cupiditate voluptatibus officia iure, vero ut blanditiis suscipit maxime eveniet et ullam distinctio
+          doloremque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam cupiditate cum quos, cumque et ratione?
+          Cupiditate voluptatibus officia iure, vero ut blanditiis suscipit maxime eveniet et ullam distinctio
+          doloremque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam cupiditate cum quos, cumque et ratione?
+          Cupiditate voluptatibus officia iure, vero ut blanditiis suscipit maxime eveniet et ullam distinctio
+          doloremque.</p>
+      </div>
+      <div class="col s12 l5 offset-l2">
+        <form action="">
+          <div class="input-field ">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">Your message</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a date you need me for...</label>
+          </div>
+          <div class="input-field">
+            <p>Some text....</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>checkbox</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>checkbox</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field center">
+            <button class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 
   <!-- footer -->
 
@@ -102,6 +203,10 @@
       $('.sidenav').sidenav();
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+      });
     });
   </script>
 </body>
