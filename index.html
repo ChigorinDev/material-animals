@@ -43,6 +43,42 @@
 
   <!-- photo / grid -->
 
+  <section class="container section images-wrapper" id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./imgs/fish.jpeg" class="responsive-img materialboxed" alt="amazing fish">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="text-lighten-4">Amazing fish</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores error incidunt iure dolores, eaque
+          assumenda sit. Ad sequi natus porro nostrum eos quidem a rem consectetur, consequuntur, commodi recusandae
+          enim.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 push-l7">
+        <img src="./imgs/lama.jpeg" class="responsive-img materialboxed" alt="amazing fish">
+      </div>
+      <div class="col s12 l6 pull-l4 right-align">
+        <h2 class="text-lighten-4">Amazing lama</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores error incidunt iure dolores, eaque
+          assumenda sit. Ad sequi natus porro nostrum eos quidem a rem consectetur, consequuntur, commodi recusandae
+          enim.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="./imgs/dino.jpeg" class="responsive-img materialboxed" alt="amazing fish">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="text-lighten-4">Amazing dino</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores error incidunt iure dolores, eaque
+          assumenda sit. Ad sequi natus porro nostrum eos quidem a rem consectetur, consequuntur, commodi recusandae
+          enim.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- parallax -->
 
   <!-- tabs -->
@@ -56,8 +92,9 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
     });
   </script>
 </body>
